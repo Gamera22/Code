@@ -126,7 +126,7 @@ public class Triangle {
         return Math.toDegrees(Math.acos((a * a + b * b - c * c) / (2 * a * b)));
     }
 
-    @Override
+    
     public String toString() {
         return String.format("%s(%.4f, %.4f, %.4f)", POLYGONSHAPE, sideA, sideB, sideC);
     }
